@@ -111,6 +111,7 @@ body {
     -webkit-font-smoothing: antialiased;
     /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
+    
 }
 
 img {
@@ -172,13 +173,15 @@ textarea {
 
 .main-menu nav ul li a {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: rgb(167, 245, 21);
     letter-spacing: 0;
     padding: 27px 36px;
     position: relative;
     padding-left: 0;
+    text-decoration: none;
+    font-family: 'Kalpurush', sans-serif, !important;
 }
 
 .main-menu nav ul li a:before {
