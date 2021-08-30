@@ -401,8 +401,8 @@ END Slider Area
 
 .service-single {
     padding: 40px 0px;
-    background: #fff;
-    border-radius: 5px;
+    background: rgb(131, 7, 69);
+    border-radius: 15px;
     text-align: center;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
@@ -410,19 +410,20 @@ END Slider Area
 .service-single img {
     max-width: 150px;
     margin-bottom: 33px;
+    border-radius: 30px;
 }
 
 .service-single h2 {
     font-size: 30px;
-    font-weight: 500;
-    color: #232323;
+    font-weight: 520;
+    color: #2ff714;
     letter-spacing: 0;
     margin-bottom: 10px;
 }
 
 .service-single p {
     font-weight: 500;
-    color: #666666;
+    color: white;
     font-size: 15px;
 }
 
