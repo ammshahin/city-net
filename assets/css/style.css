@@ -874,11 +874,35 @@ END Video Area
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    background-color: rgb(129, 233, 88);
+    background-color: rgb(28, 121, 175);
     margin-bottom: 10px;
 }
-.single-price a{
+.single-price-custom{
+    border-radius: 5px;
+    
+    overflow: hidden;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.05);
+    padding-bottom: 35px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  
+    margin-bottom: 10px;
+}
+
+.single-price-custom a{
     text-decoration: none;
+    
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #333;
+    border: 1px solid #591efb;
+    padding: 5px 21px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 44px;
 }
 .pricing-bt-div{
     position: relative;
@@ -911,7 +935,7 @@ END Video Area
     background-color: #45af08;
 }
 .prc-head{
-        background: #5a10fb;
+        background: #0919ff;
     text-align: center;
     padding: 40px;
 }
@@ -937,15 +961,17 @@ END Video Area
     text-align: center;
     margin-top: 10px;
 }
-.single-price ul li{
-        font-weight: 400;
-    font-size: 14px;
+.single-price-custom ul li{
+    font-weight: bold;
+    
+    font-size: 18px;
     color: #666666;
     line-height: 16px;
     margin-top: 19px;
     letter-spacing: 0;
 }
 .single-price a{
+    text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0;
@@ -957,6 +983,10 @@ END Video Area
     margin-top: 44px;
 }
 .single-price a:hover{
+    color: #fff;
+    background-color: #591efb;
+}
+.single-price-custom a:hover{
     color: #fff;
     background-color: #591efb;
 }
